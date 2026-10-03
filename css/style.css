@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 52px;
+}
+
+.search-1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-1 i {
+    position: absolute;
+    left: 60px;
+}
+
+.search-1 input::placeholder {
+    text-align: center;
+}
+
+.search-1:focus-within .fa-magnifying-glass,
+.search-1:focus-within .form-control::placeholder {
+    visibility: hidden;
+
+}
+
+/* justufy content'te sorun yaşadık. en son burada kaldık. */
+.kapsayici {
+    width: 1200px !important;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
