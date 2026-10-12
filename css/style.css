@@ -4,36 +4,23 @@
     padding: 0;
 }
 
-.navbar {
-    height: 52px;
+
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
-.search-1 {
+/* burada kaldık */
+/* .navbar-genel {} */
+
+.navbar-kapsayici {
     display: flex;
     align-items: center;
-    position: relative;
+    justify-content: space-between;
 }
 
-.search-1 i {
-    position: absolute;
-    left: 60px;
-}
-
-.search-1 input::placeholder {
-    text-align: center;
-}
-
-.search-1:focus-within .fa-magnifying-glass,
-.search-1:focus-within .form-control::placeholder {
-    visibility: hidden;
-
-}
-
-/* justufy content'te sorun yaşadık. en son burada kaldık. */
-.kapsayici {
-    width: 1200px !important;
-    background-color: red;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+.nav-div1 h1 {
+    font-family: "Dancing Script", cursive;
 }
