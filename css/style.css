@@ -18,9 +18,37 @@
 .navbar-kapsayici {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .nav-div1 h1 {
     font-family: "Dancing Script", cursive;
+}
+
+.İconlar-list {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 1rem;
+    font-size: 20px;
+}
+
+.icons {
+    cursor: pointer;
+}
+
+#nav-input {
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid rgb(213, 213, 213);
+}
+
+#nav-input:focus-within::placeholder {
+    visibility: hidden;
+}
+
+#kapsayici-input:focus-within #label-input {
+
+    visibility: hidden;
 }

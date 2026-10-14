@@ -1,0 +1,14 @@
+/* Navbar kısmında mobil ekranlar için responsive */
+@media (max-width:426px) {
+
+    /* en son responsive yapmakta kaldık. */
+    #nav-input {
+        display: none;
+
+    }
+
+    #kapsayici-input:active #nav-input {
+        display: block;
+    }
+
+}
